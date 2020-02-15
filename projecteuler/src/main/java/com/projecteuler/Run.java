@@ -4,7 +4,7 @@ public class Run {
 
 	public static void main(String[] args) {
 		 
-		System.out.print(new Multiples3and5().sum());
+		System.out.print(new EvenFibonacci().sum());
 
 	}
 
