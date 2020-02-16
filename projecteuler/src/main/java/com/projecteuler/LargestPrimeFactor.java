@@ -8,15 +8,14 @@ public class LargestPrimeFactor {
 	 */
 
 	public int largest() {
-		int largest = 2;
+		int largest = 1;
 		long num = 600851475143L;
-		while(num>=1) {
-		if(num%largest == 0) {
-			num = num/2;
-		}
-		largest++;
+		while (num != 1) {
+			largest++;
+			if (num % largest == 0) {
+				num = num / largest;
+			}
 		}
 		return largest;
 	}
-
 }
