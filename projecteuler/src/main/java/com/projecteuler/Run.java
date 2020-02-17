@@ -4,7 +4,7 @@ public class Run {
 
 	public static void main(String[] args) {
 		 
-		System.out.print(new Prime10001().finder());
+		System.out.print(new LargestProductSeries().findThirteen());
 
 	}
 
