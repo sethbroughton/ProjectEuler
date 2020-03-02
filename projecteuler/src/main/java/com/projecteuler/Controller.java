@@ -4,7 +4,7 @@ public class Controller {
 
 	public static void main(String[] args) {
 		 
-		System.out.print(new TriangularNumber().divisorsGreaterThan500());
+		System.out.print(new LargestSum().sum());
 		
 	}
 

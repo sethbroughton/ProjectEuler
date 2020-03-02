@@ -7,7 +7,6 @@ public class Multiples3and5 {
 	 * The sum of these multiples is 23.
 	 * Find the sum of all the multiples of 3 or 5 below 1000.
 	 */
-	
 	public int sum() {
 		int sum = 0;
 		for(int i = 1; i<1000; i++) {
