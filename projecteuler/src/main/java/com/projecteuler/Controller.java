@@ -4,7 +4,7 @@ public class Controller {
 
 	public static void main(String[] args) {
 		 
-		System.out.print(new LargestSum().sum());
+		System.out.println(new LongestCollatz().largest());
 		
 	}
 

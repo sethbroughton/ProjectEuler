@@ -1,14 +1,16 @@
 package com.projecteuler;
 
 public class Kata {
-
-	public String SongDecoder(String song)
-	{ String word = "";
 	
-	String[] words = song.split("WUB");
-	for(String subword : words) {
-		word = word + subword + " ";
-	}
-	return word.trim();
+	String output = "";
+
+	public String order(String words) {
+		String[] word = words.split(" ");
+		if(words.length()==0) {
+			return output;
+		}
+		
+		return output;
+
 	}
 }
