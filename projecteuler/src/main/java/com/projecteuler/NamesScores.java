@@ -35,7 +35,7 @@ public class NamesScores {
 			.mapToLong(i -> {
 				return wordValue(names.get(i))*(i+1);
 			}).sum();
-		
+
 	}
 	
 	private long wordValue(String word) {
